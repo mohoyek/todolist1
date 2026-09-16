@@ -1,0 +1,35 @@
+name: frontend
+description: ToDoList Frontend with Flutter, Material 3, Riverpod, and Persian Calendar
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  http: ^1.2.0
+  web_socket_channel: ^2.4.0
+  shared_preferences: ^2.2.2
+  persian_datetime_picker: ^2.8.0
+  shamsi_date: ^1.0.4
+  reorderable_grid_view: ^2.2.8
+  uuid: ^4.2.1
+  intl: ^0.18.1
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+  jwt_decoder: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  riverpod_generator: ^2.3.9
+  build_runner: ^2.4.8
+  custom_lint: ^0.5.7
+  riverpod_lint: ^2.3.7
+
+flutter:
+  uses-material-design: true

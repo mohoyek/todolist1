@@ -1,0 +1,37 @@
+```
+# Dart/Flutter specific ignores
+.dart_tool/
+.pub/
+build/
+*.dart.js
+*.map
+*.g.dart
+*.freezed.dart
+
+# Dependencies
+pubspec.lock
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+```
