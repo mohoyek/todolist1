@@ -1,5 +1,35 @@
-node_modules/
+```
+# Dart/Flutter specific ignores
+.dart_tool/
+.build/
+packages/
+*.dart.js
+*.dart.js.map
+*.part.js
+*.part.js.map
+**/lib/**
+**/bin/**
+
+# Dependencies
+pubspec.lock
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```node_modules/
 .next/
 dist/
 build/
-*.log
